@@ -79,6 +79,18 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "AirAsia",
+      "folder": "air-asia",
+      "alternateNames": ["AK", "AXM", "Air Asia"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "AirAsia X",
+      "folder": "air-asia-x",
+      "alternateNames": ["D7", "XAX", "Air Asia X"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Austrian Airlines",
       "folder": "austrian-airlines",
       "alternateNames": ["OS", "AUA", "Austrian"],
@@ -88,6 +100,12 @@
       "name": "Avianca",
       "folder": "avianca",
       "alternateNames": ["AV", "AVA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Bangkok Airways",
+      "folder": "bangkok-airways",
+      "alternateNames": ["PG", "BKP"],
       "tails": ["modern.svg"]
     },
     {
@@ -103,6 +121,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "Cambodian Airways",
+      "folder": "cambodian-airways",
+      "alternateNames": ["KR", "KME"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Cape Air",
       "folder": "cape-air",
       "alternateNames": ["9K", "KAP"],
@@ -112,6 +136,18 @@
       "name": "Cathay Pacific",
       "folder": "cathay-pacific",
       "alternateNames": ["CX", "CPA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Cebu Pacific",
+      "folder": "cebu-pacific",
+      "alternateNames": ["5J", "CEB"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Citilink",
+      "folder": "citilink",
+      "alternateNames": ["QG", "CTV"],
       "tails": ["modern.svg"]
     },
     {
@@ -154,6 +190,12 @@
       "name": "Flair",
       "folder": "flair",
       "alternateNames": ["F8", "FLE", "Flair Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Firefly",
+      "folder": "firefly",
+      "alternateNames": ["FY", "FFM"],
       "tails": ["modern.svg"]
     },
     {
@@ -220,9 +262,27 @@
       "tails": ["modern.svg", "retro.svg"]
     },
     {
+      "name": "Lion Air",
+      "folder": "lion-air",
+      "alternateNames": ["JT", "LNI"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Martinair",
       "folder": "martinair",
       "alternateNames": ["MP", "MPH"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Nok Air",
+      "folder": "nok-air",
+      "alternateNames": ["DD", "NOK"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Pacific Airlines",
+      "folder": "pacific-airlines",
+      "alternateNames": ["BL", "PIC"],
       "tails": ["modern.svg"]
     },
     {
@@ -250,6 +310,18 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "Scoot",
+      "folder": "scoot",
+      "alternateNames": ["TR", "TGW"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Sky Pasada",
+      "folder": "sky-pasada",
+      "alternateNames": ["SP", "SKP"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Southwest",
       "folder": "southwest",
       "alternateNames": ["WN", "SWA", "Southwest Airlines"],
@@ -265,6 +337,12 @@
       "name": "Sunwing",
       "folder": "sunwing",
       "alternateNames": ["WG", "SWG", "Sunwing Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Super Air Jet",
+      "folder": "super-air-jet",
+      "alternateNames": ["IU", "SJV"],
       "tails": ["modern.svg"]
     },
     {
@@ -298,6 +376,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "VietJet Airlines",
+      "folder": "vietjet-airlines",
+      "alternateNames": ["VJ", "VJC", "VietJet"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Volaris",
       "folder": "volaris",
       "alternateNames": ["Y4", "VOI"],
@@ -308,6 +392,12 @@
       "folder": "westjet",
       "alternateNames": ["WS", "WJA"],
       "tails": ["retro.svg"]
+    },
+    {
+      "name": "Wings Air",
+      "folder": "wings-air",
+      "alternateNames": ["IW", "WON"],
+      "tails": ["modern.svg"]
     },
     {
       "name": "Wizz Air",
