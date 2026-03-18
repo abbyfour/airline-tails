@@ -1,8 +1,4 @@
-# abby's airline-tails
-
-<!-- banner image -->
-
-![airline tails banner](./banner.png)
+![abby's airline-tails](./banner.png)
 
 A growing collection of airline tail liveries in SVG format, because every aircraft deserves to wear its colours with infinite scalability.
 
