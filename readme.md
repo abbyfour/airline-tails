@@ -4,7 +4,7 @@ A growing collection of airline tail liveries in SVG format, because every aircr
 
 ## examples
 
-Here are a few examples of the tails you can find in this collection:
+You can browse the whole collection at **[tails.ab4.ca](https://tails.ab4.ca)**, but here are a few examples of the tails you can find in this collection:
 
 <img src="./src/lufthansa/retro.svg" alt="lufthansa retro tail" width="100" />
 
