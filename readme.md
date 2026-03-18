@@ -63,7 +63,7 @@ The "default" normal tail for an airline will be called `modern.svg`. The first 
 
 ## missing an airline?
 
-The skies are wide and this collection is still climbing to cruise altitude. If an airline is missing please [open an issue](../../issues/new) and include:
+The skies are wide and this collection is still climbing to cruising altitude. If an airline is missing please [open an issue](../../issues/new) and include:
 
 - the airline name (and any alternate names or codes)
 - a **photo example** of the tail livery
