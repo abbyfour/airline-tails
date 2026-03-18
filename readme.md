@@ -70,3 +70,7 @@ The skies are wide and this collection is still climbing to cruising altitude. I
 - any relevant context: era, fleet type, variant liveries
 
 Pull requests are also welcome but, I'm picky! It's gotta be good. A template can be found at [template.svg](./template.svg).
+
+## acknowledgements
+
+Thank you to wikimedia for hosting so many airline logo SVGs!

@@ -55,6 +55,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "Allegiant",
+      "folder": "allegiant",
+      "alternateNames": ["G4", "AAY", "Allegiant Air"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "American Airlines",
       "folder": "american-airlines",
       "alternateNames": ["AA", "AAL"],
@@ -70,6 +76,12 @@
       "name": "Avianca",
       "folder": "avianca",
       "alternateNames": ["AV", "AVA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Breeze",
+      "folder": "breeze",
+      "alternateNames": ["MX", "MXY", "Breeze Airways"],
       "tails": ["modern.svg"]
     },
     {
@@ -190,6 +202,12 @@
       "name": "Southwest",
       "folder": "southwest",
       "alternateNames": ["WN", "SWA", "Southwest Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Spirit",
+      "folder": "spirit",
+      "alternateNames": ["NK", "NKS", "Spirit Airlines"],
       "tails": ["modern.svg"]
     },
     {
