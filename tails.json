@@ -55,6 +55,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "Alaska Airlines",
+      "folder": "alaska-airlines",
+      "alternateNames": ["AS", "ASA", "Alaska"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Allegiant",
       "folder": "allegiant",
       "alternateNames": ["G4", "AAY", "Allegiant Air"],
@@ -133,6 +139,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "Enerjet",
+      "folder": "enerjet",
+      "alternateNames": ["EG", "ENJ"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Eurowings",
       "folder": "eurowings",
       "alternateNames": ["EW", "EWG"],
@@ -143,6 +155,12 @@
       "folder": "flair",
       "alternateNames": ["F8", "FLE", "Flair Airlines"],
       "tails": ["modern.svg"]
+    },
+    {
+      "name": "Frontier",
+      "folder": "frontier",
+      "alternateNames": ["F9", "FFT", "Frontier Airlines"],
+      "tails": ["fake.svg"]
     },
     {
       "name": "Harbour Air",
@@ -161,6 +179,27 @@
       "folder": "japan-airlines",
       "alternateNames": ["JL", "JAL"],
       "tails": ["modern.svg"]
+    },
+    {
+      "name": "JetBlue",
+      "folder": "jetblue",
+      "alternateNames": ["B6", "JBU", "JetBlue Airways"],
+      "tails": [
+        "balloons.svg",
+        "barcode.svg",
+        "binary.svg",
+        "blueberries.svg",
+        "blueprint.svg",
+        "for_good.svg",
+        "highrise.svg",
+        "hops.svg",
+        "mosaic.svg",
+        "prism.svg",
+        "ribbons.svg",
+        "spotlight.svg",
+        "streamers.svg",
+        "tartan.svg"
+      ]
     },
     {
       "name": "Jetstar",
@@ -187,9 +226,9 @@
       "tails": ["modern.svg"]
     },
     {
-      "name": "Porter Airlines",
+      "name": "Porter",
       "folder": "porter",
-      "alternateNames": ["PD", "POE", "Porter"],
+      "alternateNames": ["PD", "POE", "Porter Airlines"],
       "tails": ["modern.svg"]
     },
     {

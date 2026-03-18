@@ -74,3 +74,5 @@ Pull requests are also welcome but, I'm picky! It's gotta be good. A template ca
 ## acknowledgements
 
 Thank you to wikimedia for hosting so many airline logo SVGs! They can be found [here](https://en.wikipedia.org/wiki/Category:SVG_logos_of_airlines).
+
+All of JetBlue's tails were sourced from [their website](https://www.jetblue.com/flying-with-us/our-planes/tailfins), who host SVGs of all their tail designs. Go JetBlue!
