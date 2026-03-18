@@ -73,6 +73,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "Austrian Airlines",
+      "folder": "austrian-airlines",
+      "alternateNames": ["OS", "AUA", "Austrian"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Avianca",
       "folder": "avianca",
       "alternateNames": ["AV", "AVA"],
@@ -89,6 +95,12 @@
       "folder": "british-airways",
       "alternateNames": ["BA", "BAW"],
       "tails": ["modern.svg"]
+    },
+    {
+      "name": "Cape Air",
+      "folder": "cape-air",
+      "alternateNames": ["9K", "KAP"],
+      "tails": ["modern.svg", "rainbow.svg"]
     },
     {
       "name": "Cathay Pacific",
