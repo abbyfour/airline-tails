@@ -1,0 +1,250 @@
+{
+  "airlines": [
+    {
+      "name": "Aer Lingus",
+      "folder": "aer-lingus",
+      "alternateNames": ["EI", "EIN"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "airBaltic",
+      "folder": "air-baltic",
+      "alternateNames": ["BT", "BTI"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Air Canada",
+      "folder": "air-canada",
+      "alternateNames": ["AC", "ACA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Air China",
+      "folder": "air-china",
+      "alternateNames": ["CA", "CCA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Air Dolomiti",
+      "folder": "air-dolomiti",
+      "alternateNames": ["EN", "DLA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Air France",
+      "folder": "air-france",
+      "alternateNames": ["AF", "AFR"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Air India",
+      "folder": "air-india",
+      "alternateNames": ["AI", "AIC"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Air North",
+      "folder": "air-north",
+      "alternateNames": ["4N", "ANT"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Air Transat",
+      "folder": "air-transat",
+      "alternateNames": ["TS", "TSC"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "American Airlines",
+      "folder": "american-airlines",
+      "alternateNames": ["AA", "AAL"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "ANA",
+      "folder": "ana",
+      "alternateNames": ["NH", "ANA", "All Nippon Airways"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Avianca",
+      "folder": "avianca",
+      "alternateNames": ["AV", "AVA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "British Airways",
+      "folder": "british-airways",
+      "alternateNames": ["BA", "BAW"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Cathay Pacific",
+      "folder": "cathay-pacific",
+      "alternateNames": ["CX", "CPA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Condor",
+      "folder": "condor",
+      "alternateNames": ["DE", "CFG"],
+      "tails": ["blue.svg", "gold.svg", "green.svg", "red.svg", "yellow.svg"]
+    },
+    {
+      "name": "Delta",
+      "folder": "delta",
+      "alternateNames": ["DL", "DAL", "Delta Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Drukair",
+      "folder": "drukair",
+      "alternateNames": ["KB", "DRK", "Royal Bhutan Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Edelweiss",
+      "folder": "edelweiss",
+      "alternateNames": ["WK", "EDW", "Edelweiss Air"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Eurowings",
+      "folder": "eurowings",
+      "alternateNames": ["EW", "EWG"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Flair",
+      "folder": "flair",
+      "alternateNames": ["F8", "FLE", "Flair Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Harbour Air",
+      "folder": "harbour-air",
+      "alternateNames": ["H3", "HAR"],
+      "tails": ["modern.svg", "canada.svg"]
+    },
+    {
+      "name": "Hawaiian Airlines",
+      "folder": "hawaiian-airlines",
+      "alternateNames": ["HA", "HAL"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Japan Airlines",
+      "folder": "japan-airlines",
+      "alternateNames": ["JL", "JAL"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Jetstar",
+      "folder": "jetstar",
+      "alternateNames": ["JQ", "JST", "Jetstar Airways"],
+      "tails": ["modern.svg", "alternate.svg"]
+    },
+    {
+      "name": "KLM",
+      "folder": "klm",
+      "alternateNames": ["KL", "KLM", "Royal Dutch Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Lufthansa",
+      "folder": "lufthansa",
+      "alternateNames": ["LH", "DLH"],
+      "tails": ["modern.svg", "retro.svg"]
+    },
+    {
+      "name": "Martinair",
+      "folder": "martinair",
+      "alternateNames": ["MP", "MPH"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Porter Airlines",
+      "folder": "porter",
+      "alternateNames": ["PD", "POE", "Porter"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Royal Air Maroc",
+      "folder": "royal-air-maroc",
+      "alternateNames": ["AT", "RAM"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Ryanair",
+      "folder": "ryanair",
+      "alternateNames": ["FR", "RYR"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "SAS",
+      "folder": "sas",
+      "alternateNames": ["SK", "SAS", "Scandinavian Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Southwest",
+      "folder": "southwest",
+      "alternateNames": ["WN", "SWA", "Southwest Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Sunwing",
+      "folder": "sunwing",
+      "alternateNames": ["WG", "SWG", "Sunwing Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Swiss Air",
+      "folder": "swiss-air",
+      "alternateNames": ["LX", "SWR", "SWISS", "Swiss International Air Lines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Swoop",
+      "folder": "swoop",
+      "alternateNames": ["WO", "WSW"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Turkish Airlines",
+      "folder": "turkish-airlines",
+      "alternateNames": ["TK", "THY"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "United",
+      "folder": "united",
+      "alternateNames": ["UA", "UAL", "United Airlines"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "US Airways",
+      "folder": "us-airways",
+      "alternateNames": ["US", "USA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Volaris",
+      "folder": "volaris",
+      "alternateNames": ["Y4", "VOI"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "WestJet",
+      "folder": "westjet",
+      "alternateNames": ["WS", "WJA"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Wizz Air",
+      "folder": "wizz-air",
+      "alternateNames": ["W6", "WZZ"],
+      "tails": ["modern.svg"]
+    }
+  ]
+}
