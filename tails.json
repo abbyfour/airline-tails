@@ -238,7 +238,7 @@
       "name": "WestJet",
       "folder": "westjet",
       "alternateNames": ["WS", "WJA"],
-      "tails": ["modern.svg"]
+      "tails": ["retro.svg"]
     },
     {
       "name": "Wizz Air",
