@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>abby's airline tails</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,300;0,400;0,500;1,300&family=Zalando+Sans+SemiExpanded:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --bg: #ffffff;
+        --surface: #d8e0e8;
+        --border: #454545;
+        --text: #1a1814;
+        --subtext: #6b6560;
+        --accent: #2b5ac0;
+        --accent-dark: #1f3f8a;
+        --accent-dim: rgba(43, 65, 192, 0.1);
+        --card-bg: #f4f8fa;
+        --shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
+        --shadow-hover:
+          0 4px 8px rgba(0, 0, 0, 0.12), 0 12px 32px rgba(0, 0, 0, 0.08);
+
+        --display-font: "Zalando Sans SemiExpanded", sans-serif;
+      }
+
+      html {
+        font-size: 16px;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Teachers", monospace;
+        min-height: 100vh;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1;
+      }
+
+      /* ── Header ── */
+      header {
+        padding: 2.5rem 2rem 0;
+        max-width: 1400px;
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .header-top {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+      }
+
+      .header-top img {
+        width: min(75vw, 600px);
+        height: auto;
+        display: block;
+      }
+
+      .subtitle {
+        font-size: 0.75rem;
+        color: var(--subtext);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding-bottom: 0.2rem;
+        text-align: center;
+      }
+
+      /* ── Search + Controls ── */
+      .controls {
+        max-width: 1400px;
+        margin: 1.75rem auto 0;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .search-wrap {
+        position: relative;
+        min-width: 200px;
+        max-width: 420px;
+        width: 100%;
+      }
+
+      .search-wrap svg {
+        position: absolute;
+        left: 0.85rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--subtext);
+        pointer-events: none;
+      }
+
+      #search {
+        width: 100%;
+        padding: 0.65rem 0.85rem 0.65rem 2.5rem;
+        background: var(--card-bg);
+        border: 1.5px solid var(--border);
+        border-radius: 6px;
+        font-family: "Teachers", monospace;
+        font-size: 0.82rem;
+        color: var(--text);
+        outline: none;
+        transition:
+          border-color 0.15s,
+          box-shadow 0.15s;
+      }
+
+      #search:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-dim);
+      }
+
+      #search::placeholder {
+        color: var(--subtext);
+      }
+
+      .count {
+        font-size: 0.75rem;
+        color: var(--subtext);
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+      }
+
+      .count strong {
+        color: var(--text);
+        font-weight: 500;
+      }
+
+      /* ── Divider ── */
+      .divider {
+        max-width: 1400px;
+        margin: 1.25rem auto 0;
+        padding: 0 2rem;
+        border: none;
+        border-top: 1.5px solid var(--border);
+      }
+
+      /* ── Grid ── */
+      .grid {
+        max-width: 1400px;
+        margin: 1.5rem auto 0;
+        padding: 0 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1.1rem;
+      }
+
+      /* ── Card ── */
+      .card {
+        background: var(--card-bg);
+        border: 1.5px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        transition:
+          transform 0.18s ease,
+          box-shadow 0.18s ease,
+          border-color 0.18s ease;
+        box-shadow: var(--shadow);
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-hover);
+        border-color: var(--accent);
+      }
+
+      .card-img {
+        aspect-ratio: 4/3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.25rem;
+        background: var(--surface);
+        overflow: hidden;
+      }
+
+      .card-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .card-info {
+        padding: 0.7rem 0.85rem 0.75rem;
+        border-top: 1.5px solid var(--border);
+        flex: 1;
+      }
+
+      .card-name {
+        font-family: var(--display-font);
+        font-weight: 600;
+        font-size: 0.85rem;
+        letter-spacing: -0.01em;
+        line-height: 1.3;
+        margin-bottom: 0.2rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .card-codes {
+        font-size: 0.68rem;
+        color: var(--subtext);
+        letter-spacing: 0.03em;
+        margin-bottom: 0.15rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .card-variant {
+        font-size: 0.68rem;
+        color: var(--subtext);
+        letter-spacing: 0.02em;
+        opacity: 0.7;
+      }
+
+      /* ── Empty state ── */
+      .empty {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 4rem 1rem;
+        color: var(--subtext);
+      }
+
+      .empty p:first-child {
+        font-family: var(--display-font);
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+        color: var(--text);
+      }
+
+      .empty p:last-child {
+        font-size: 0.78rem;
+      }
+
+      /* ── Modal / Lightbox ── */
+      .modal-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(20, 18, 15, 0.65);
+        backdrop-filter: blur(4px);
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
+      }
+
+      .modal-overlay.open {
+        opacity: 1;
+        pointer-events: all;
+      }
+
+      .modal {
+        background: var(--card-bg);
+        border: 1.5px solid var(--border);
+        border-radius: 12px;
+        max-width: 520px;
+        width: 100%;
+        overflow: hidden;
+        transform: translateY(12px) scale(0.98);
+        transition: transform 0.22s ease;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+      }
+
+      .modal-overlay.open .modal {
+        transform: translateY(0) scale(1);
+      }
+
+      .modal-img {
+        background: var(--surface);
+        padding: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 260px;
+      }
+
+      .modal-img img {
+        max-width: 100%;
+        max-height: 260px;
+        object-fit: contain;
+      }
+
+      .modal-body {
+        padding: 1.25rem 1.5rem 1.5rem;
+        border-top: 1.5px solid var(--border);
+      }
+
+      .modal-airline {
+        font-family: var(--display-font);
+        font-weight: 800;
+        font-size: 1.4rem;
+        letter-spacing: -0.03em;
+        line-height: 1.1;
+        margin-bottom: 0.2rem;
+      }
+
+      .modal-codes {
+        font-size: 0.72rem;
+        color: var(--subtext);
+        letter-spacing: 0.04em;
+        margin-bottom: 0.75rem;
+      }
+
+      .modal-meta {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+      }
+
+      .modal-variant {
+        font-size: 0.72rem;
+        background: var(--accent-dim);
+        color: var(--accent);
+        border: 1px solid var(--accent-dark);
+        border-radius: 4px;
+        padding: 0.2rem 0.5rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+
+      .modal-actions {
+        display: flex;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+      }
+
+      .modal-actions a,
+      .modal-close-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.55rem 1rem;
+        border-radius: 5px;
+        font-family: "Teachers", monospace;
+        font-size: 0.75rem;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        border: 1.5px solid transparent;
+        transition:
+          background 0.15s,
+          border-color 0.15s,
+          color 0.15s;
+        letter-spacing: 0.02em;
+      }
+
+      .btn-primary {
+        background: var(--accent);
+        color: #fff;
+        border-color: var(--accent);
+      }
+
+      .btn-primary:hover {
+        background: var(--accent-dark);
+        border-color: var(--accent-dark);
+      }
+
+      .btn-ghost {
+        background: transparent;
+        color: var(--text);
+        border-color: var(--border);
+      }
+
+      .btn-ghost:hover {
+        background: var(--surface);
+      }
+
+      .modal-close-btn {
+        margin-left: auto;
+      }
+
+      /* ── Variant tabs ── */
+      .variant-tabs {
+        display: flex;
+        gap: 0.4rem;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .variant-tab {
+        padding: 0.3rem 0.7rem;
+        border: 1.5px solid var(--border);
+        border-radius: 4px;
+        font-family: "Teachers", monospace;
+        font-size: 0.7rem;
+        cursor: pointer;
+        background: transparent;
+        color: var(--subtext);
+        transition: all 0.12s;
+        letter-spacing: 0.04em;
+      }
+
+      .variant-tab.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+
+      /* ── Footer ── */
+      footer {
+        margin-top: 4rem;
+        border-top: 1.5px solid var(--border);
+        padding: 1.75rem 2rem;
+      }
+
+      .footer-inner {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-left {
+        font-size: 0.75rem;
+        color: var(--subtext);
+        line-height: 1.7;
+      }
+
+      .footer-left a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .footer-left a:hover {
+        text-decoration: underline;
+      }
+
+      .footer-credit {
+        font-size: 0.7rem;
+        color: var(--subtext);
+        opacity: 0.65;
+        margin-top: 0.5rem;
+      }
+
+      .footer-note {
+        font-size: 0.75rem;
+        color: var(--subtext);
+        max-width: 340px;
+        line-height: 1.6;
+        font-style: italic;
+      }
+
+      /* ── Responsive ── */
+      @media (max-width: 600px) {
+        header {
+          padding: 1.5rem 1rem 0;
+        }
+
+        .header-top img {
+          width: min(90vw, 400px);
+        }
+
+        .controls {
+          padding: 0 1rem;
+        }
+
+        .divider {
+          padding: 0 1rem;
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        .grid {
+          padding: 0 1rem;
+          grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+        }
+
+        .modal-img {
+          padding: 1.5rem;
+          min-height: 200px;
+        }
+
+        .modal-body {
+          padding: 1rem 1.25rem 1.25rem;
+        }
+
+        footer {
+          padding: 1.5rem 1rem;
+        }
+
+        .footer-inner {
+          flex-direction: column;
+          gap: 1rem;
+        }
+
+        .footer-note {
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header-top">
+          <img src="./website-banner.png" alt="abby's airline tails" />
+        </div>
+      </header>
+
+      <div class="controls">
+        <div class="search-wrap">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 6.5C10 8.433 8.433 10 6.5 10C4.567 10 3 8.433 3 6.5C3 4.567 4.567 3 6.5 3C8.433 3 10 4.567 10 6.5ZM9.30884 10.0159C8.53901 10.6318 7.56251 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5C11 7.56251 10.6318 8.53901 10.0159 9.30884L12.8536 12.1464C13.0488 12.3417 13.0488 12.6583 12.8536 12.8536C12.6583 13.0488 12.3417 13.0488 12.1464 12.8536L9.30884 10.0159Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <input
+            id="search"
+            type="search"
+            placeholder="search airlines, IATA, ICAO…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </div>
+        <span class="count" id="count"></span>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="grid" id="grid"></div>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-left">
+          <div>
+            made by <strong>abby</strong> ·
+            <a
+              href="https://github.com/abbyfour/airline-tails"
+              target="_blank"
+              rel="noopener"
+              >github</a
+            >
+          </div>
+          <div class="footer-credit">
+            built with a little help from claude ✦
+          </div>
+        </div>
+        <div class="footer-note">
+          <!-- add a note, license blurb, or whatever you'd like here -->
+          this is a flynet project! check it out at
+          <a
+            href="https://github.com/abbyfour/flynet-ui"
+            target="_blank"
+            rel="noopener"
+          >
+            flynet-ui
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+      <div class="modal" id="modal">
+        <div class="modal-img">
+          <img id="modal-img-el" src="" alt="" />
+        </div>
+        <div class="modal-body">
+          <div class="modal-airline" id="modal-name"></div>
+          <div class="modal-codes" id="modal-codes"></div>
+          <div class="modal-meta">
+            <span class="modal-variant" id="modal-variant-badge"></span>
+          </div>
+          <div class="variant-tabs" id="variant-tabs"></div>
+          <div class="modal-actions">
+            <a id="modal-dl" class="btn-primary" download>
+              <svg width="13" height="13" viewBox="0 0 15 15" fill="none">
+                <path
+                  d="M7.5 2C7.77614 2 8 2.22386 8 2.5V10.2929L10.1464 8.14645C10.3417 7.95118 10.6583 7.95118 10.8536 8.14645C11.0488 8.34171 11.0488 8.65829 10.8536 8.85355L7.85355 11.8536C7.75979 11.9473 7.63261 12 7.5 12C7.36739 12 7.24021 11.9473 7.14645 11.8536L4.14645 8.85355C3.95118 8.65829 3.95118 8.34171 4.14645 8.14645C4.34171 7.95118 4.65829 7.95118 4.85355 8.14645L7 10.2929V2.5C7 2.22386 7.22386 2 7.5 2ZM2.5 13C2.22386 13 2 13.2239 2 13.5C2 13.7761 2.22386 14 2.5 14H12.5C12.7761 14 13 13.7761 13 13.5C13 13.2239 12.7761 13 12.5 13H2.5Z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              download svg
+            </a>
+            <a id="modal-gh" class="btn-ghost" target="_blank" rel="noopener">
+              <svg width="13" height="13" viewBox="0 0 15 15" fill="none">
+                <path
+                  d="M7.49933 0.25C3.49938 0.25 0.25 3.49937 0.25 7.49933C0.25 10.704 2.31104 13.4144 5.21446 14.3836C5.57379 14.4508 5.70346 14.2311 5.70346 14.0388C5.70346 13.8664 5.69679 13.3768 5.69346 12.756C3.67905 13.1921 3.25533 11.7699 3.25533 11.7699C2.92805 10.9316 2.45359 10.7129 2.45359 10.7129C1.79923 10.2662 2.50285 10.2753 2.50285 10.2753C3.22584 10.3274 3.60532 11.0187 3.60532 11.0187C4.24787 12.1315 5.30938 11.8054 5.71854 11.6202C5.78481 11.1547 5.96927 10.8296 6.17262 10.6459C4.56045 10.4598 2.86917 9.83748 2.86917 7.12168C2.86917 6.32938 3.15007 5.68257 3.61945 5.17563C3.54424 4.98996 3.29734 4.25695 3.69067 3.26284C3.69067 3.26284 4.29329 3.06535 5.68585 3.99301C6.26898 3.82795 6.87859 3.74539 7.49933 3.74246C8.1199 3.74539 8.72951 3.82795 9.31264 3.99301C10.705 3.06535 11.3076 3.26284 11.3076 3.26284C11.701 4.25695 11.4541 4.98996 11.3789 5.17563C11.8483 5.68257 12.1282 6.32938 12.1282 7.12168C12.1282 9.84820 10.4349 10.458 8.81968 10.6406C9.07859 10.8679 9.30983 11.3177 9.30983 12.0094C9.30983 12.9999 9.30018 13.8077 9.30018 14.0388C9.30018 14.2332 9.42854 14.4547 9.79387 14.3836C12.6953 13.4129 14.75 10.7025 14.75 7.49933C14.75 3.49937 11.5006 0.25 7.49933 0.25Z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              view on github
+            </a>
+            <button class="btn-ghost modal-close-btn" id="modal-close">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const BASE_RAW =
+        "https://raw.githubusercontent.com/abbyfour/airline-tails/main/src";
+      const BASE_GH = "https://github.com/abbyfour/airline-tails/blob/main/src";
+      const JSON_URL = "./tails.json";
+
+      // ── State ──
+      let allCards = [];
+      let currentAirline = null;
+      let currentTailIdx = 0;
+
+      // ── DOM refs ──
+      const grid = document.getElementById("grid");
+      const searchEl = document.getElementById("search");
+      const countEl = document.getElementById("count");
+      const overlay = document.getElementById("modal-overlay");
+      const modalName = document.getElementById("modal-name");
+      const modalImg = document.getElementById("modal-img-el");
+      const modalBadge = document.getElementById("modal-variant-badge");
+      const modalCodes = document.getElementById("modal-codes");
+      const modalDl = document.getElementById("modal-dl");
+      const modalGh = document.getElementById("modal-gh");
+      const modalClose = document.getElementById("modal-close");
+      const variantTabs = document.getElementById("variant-tabs");
+
+      // ── Fetch data ──
+      async function init() {
+        const res = await fetch(JSON_URL);
+        const data = await res.json();
+
+        allCards = [];
+        for (const airline of data.airlines) {
+          for (const tail of airline.tails) {
+            allCards.push({ airline, tail });
+          }
+        }
+
+        renderGrid(allCards);
+        updateCount(allCards.length, allCards.length);
+      }
+
+      // ── Render ──
+      function variantLabel(filename) {
+        return filename.replace(".svg", "");
+      }
+
+      function renderGrid(cards) {
+        grid.innerHTML = "";
+
+        if (cards.length === 0) {
+          const el = document.createElement("div");
+          el.className = "empty";
+          el.innerHTML = `<p>no results</p><p>try a different search term or IATA/ICAO code</p>`;
+          grid.appendChild(el);
+          return;
+        }
+
+        for (const { airline, tail } of cards) {
+          const src = `${BASE_RAW}/${airline.folder}/${tail}`;
+          const label = variantLabel(tail);
+          const codes = airline.alternateNames.join(" · ");
+
+          const card = document.createElement("div");
+          card.className = "card";
+          card.innerHTML = `
+            <div class="card-img">
+              <img src="${src}" alt="${airline.name} ${label} tail" loading="lazy" />
+            </div>
+            <div class="card-info">
+              <div class="card-name">${airline.name}</div>
+              ${codes ? `<div class="card-codes">${codes}</div>` : ""}
+              <div class="card-variant">${label}</div>
+            </div>`;
+
+          card.addEventListener("click", () => openModal(airline, tail));
+          grid.appendChild(card);
+        }
+      }
+
+      function updateCount(shown, total) {
+        countEl.innerHTML = `<strong>${shown}</strong> of <strong>${total}</strong> tails`;
+      }
+
+      // ── Search ──
+      searchEl.addEventListener("input", () => {
+        const q = searchEl.value.toLowerCase().trim();
+        if (!q) {
+          renderGrid(allCards);
+          updateCount(allCards.length, allCards.length);
+          return;
+        }
+
+        const filtered = allCards.filter(({ airline }) => {
+          if (airline.name.toLowerCase().includes(q)) return true;
+          if (airline.folder.toLowerCase().includes(q)) return true;
+          for (const alt of airline.alternateNames) {
+            if (alt.toLowerCase().includes(q)) return true;
+          }
+          return false;
+        });
+
+        renderGrid(filtered);
+        updateCount(filtered.length, allCards.length);
+      });
+
+      // ── Modal ──
+      function openModal(airline, activeTail) {
+        currentAirline = airline;
+        currentTailIdx = airline.tails.indexOf(activeTail);
+
+        modalName.textContent = airline.name;
+        const codes = airline.alternateNames.join(" · ");
+        modalCodes.textContent = codes;
+
+        // build variant tabs if multiple tails
+        variantTabs.innerHTML = "";
+        if (airline.tails.length > 1) {
+          airline.tails.forEach((t, i) => {
+            const btn = document.createElement("button");
+            btn.className =
+              "variant-tab" + (i === currentTailIdx ? " active" : "");
+            btn.textContent = variantLabel(t);
+            btn.addEventListener("click", () => {
+              currentTailIdx = i;
+              setModalTail(airline, t);
+              variantTabs.querySelectorAll(".variant-tab").forEach((b, j) => {
+                b.classList.toggle("active", j === i);
+              });
+            });
+            variantTabs.appendChild(btn);
+          });
+        }
+
+        setModalTail(airline, activeTail);
+        overlay.classList.add("open");
+        document.body.style.overflow = "hidden";
+      }
+
+      function setModalTail(airline, tail) {
+        const src = `${BASE_RAW}/${airline.folder}/${tail}`;
+        modalImg.src = src;
+        modalImg.alt = `${airline.name} ${variantLabel(tail)} tail`;
+        modalBadge.textContent = variantLabel(tail);
+        modalDl.href = src;
+        modalDl.download = `${airline.folder}-${tail}`;
+        modalGh.href = `${BASE_GH}/${airline.folder}/${tail}`;
+      }
+
+      function closeModal() {
+        overlay.classList.remove("open");
+        document.body.style.overflow = "";
+      }
+
+      modalClose.addEventListener("click", closeModal);
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) closeModal();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModal();
+      });
+
+      // ── Go ──
+      init();
+    </script>
+  </body>
+</html>
