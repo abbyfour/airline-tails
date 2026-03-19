@@ -145,6 +145,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "China Eastern",
+      "folder": "china-eastern",
+      "alternateNames": ["MU", "CES"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Citilink",
       "folder": "citilink",
       "alternateNames": ["QG", "CTV"],
@@ -172,6 +178,12 @@
       "name": "Edelweiss",
       "folder": "edelweiss",
       "alternateNames": ["WK", "EDW", "Edelweiss Air"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "El Al Airways",
+      "folder": "el-al-airways",
+      "alternateNames": ["LY", "ELY", "El Al"],
       "tails": ["modern.svg"]
     },
     {
@@ -203,6 +215,12 @@
       "folder": "frontier",
       "alternateNames": ["F9", "FFT", "Frontier Airlines"],
       "tails": ["fake.svg"]
+    },
+    {
+      "name": "Grupo TACA",
+      "folder": "grupo-taca",
+      "alternateNames": ["TA", "TAI", "TACA"],
+      "tails": ["modern.svg"]
     },
     {
       "name": "Harbour Air",
@@ -292,6 +310,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "Qatar Airways",
+      "folder": "qatar-airways",
+      "alternateNames": ["QR", "QTR"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "Royal Air Maroc",
       "folder": "royal-air-maroc",
       "alternateNames": ["AT", "RAM"],
@@ -313,6 +337,12 @@
       "name": "Scoot",
       "folder": "scoot",
       "alternateNames": ["TR", "TGW"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Shanghai Airlines",
+      "folder": "shanghai-airlines",
+      "alternateNames": ["FM", "CSH"],
       "tails": ["modern.svg"]
     },
     {
@@ -355,6 +385,12 @@
       "name": "Swoop",
       "folder": "swoop",
       "alternateNames": ["WO", "WSW"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Thomas Cook Airlines",
+      "folder": "thomas-cook-airlines",
+      "alternateNames": ["MT", "TCX"],
       "tails": ["modern.svg"]
     },
     {
