@@ -322,14 +322,33 @@
         font-size: 1.4rem;
         letter-spacing: -0.03em;
         line-height: 1.1;
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.15rem;
+      }
+
+      /* ── Wikipedia link ── */
+      #modal-wiki {
+        display: none;
+        font-size: 0.81rem;
+        color: var(--subtext);
+        letter-spacing: 0.04em;
+        text-decoration: none;
+      }
+
+      #modal-wiki:hover {
+        color: var(--accent);
+      }
+
+      #modal-separator {
+        font-size: 0.81rem;
+        color: var(--subtext);
+        opacity: 0.4;
+        display: none;
       }
 
       .modal-codes {
-        font-size: 0.72rem;
+        font-size: 0.81rem;
         color: var(--subtext);
         letter-spacing: 0.04em;
-        margin-bottom: 0.75rem;
       }
 
       .modal-meta {
@@ -341,7 +360,7 @@
       }
 
       .modal-variant {
-        font-size: 0.72rem;
+        font-size: 0.81rem;
         background: var(--accent-dim);
         color: var(--accent);
         border: 1px solid var(--accent-dark);
@@ -603,7 +622,19 @@
         </div>
         <div class="modal-body">
           <div class="modal-airline" id="modal-name"></div>
-          <div class="modal-codes" id="modal-codes"></div>
+          <div
+            class="modal-airline-info"
+            style="
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+              margin-bottom: 0.75rem;
+            "
+          >
+            <a id="modal-wiki" target="_blank" rel="noopener">wikipedia</a>
+            <span id="modal-separator">|</span>
+            <div class="modal-codes" id="modal-codes"></div>
+          </div>
           <div class="modal-meta">
             <span class="modal-variant" id="modal-variant-badge"></span>
           </div>
@@ -661,6 +692,7 @@
       const modalCodes = document.getElementById("modal-codes");
       const modalDl = document.getElementById("modal-dl");
       const modalGh = document.getElementById("modal-gh");
+      const modalWiki = document.getElementById("modal-wiki");
       const modalClose = document.getElementById("modal-close");
       const variantTabs = document.getElementById("variant-tabs");
 
@@ -752,6 +784,17 @@
         modalName.textContent = airline.name;
         const codes = airline.alternateNames.join(" · ");
         modalCodes.textContent = codes;
+
+        // wikipedia link
+        const separator = document.getElementById("modal-separator");
+        if (airline.wikipedia) {
+          modalWiki.href = airline.wikipedia;
+          modalWiki.style.display = "inline";
+          separator.style.display = "inline";
+        } else {
+          modalWiki.style.display = "none";
+          separator.style.display = "none";
+        }
 
         // build variant tabs if multiple tails
         variantTabs.innerHTML = "";
