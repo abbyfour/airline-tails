@@ -7,6 +7,12 @@
       "tails": ["modern.svg"]
     },
     {
+      "name": "Aeromexico",
+      "folder": "aeromexico",
+      "alternateNames": ["AM", "AMX", "Aeroméxico"],
+      "tails": ["modern.svg"]
+    },
+    {
       "name": "airBaltic",
       "folder": "air-baltic",
       "alternateNames": ["BT", "BTI"],
@@ -349,6 +355,12 @@
       "name": "Sky Pasada",
       "folder": "sky-pasada",
       "alternateNames": ["SP", "SKP"],
+      "tails": ["modern.svg"]
+    },
+    {
+      "name": "Southern Airways Express",
+      "folder": "southern-airways-express",
+      "alternateNames": ["9X", "SWQ"],
       "tails": ["modern.svg"]
     },
     {
