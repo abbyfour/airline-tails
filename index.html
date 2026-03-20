@@ -713,8 +713,8 @@
       }
 
       // ── Render ──
-      function variantLabel(filename) {
-        return filename.replace(".svg", "");
+      function variantLabel(tail) {
+        return tail.file.replace(".svg", "");
       }
 
       function renderGrid(cards) {
@@ -729,7 +729,7 @@
         }
 
         for (const { airline, tail } of cards) {
-          const src = `${BASE_RAW}/${airline.folder}/${tail}`;
+          const src = `${BASE_RAW}/${airline.folder}/${tail.file}`;
           const label = variantLabel(tail);
           const codes = airline.alternateNames.join(" · ");
 
@@ -821,13 +821,13 @@
       }
 
       function setModalTail(airline, tail) {
-        const src = `${BASE_RAW}/${airline.folder}/${tail}`;
+        const src = `${BASE_RAW}/${airline.folder}/${tail.file}`;
         modalImg.src = src;
         modalImg.alt = `${airline.name} ${variantLabel(tail)} tail`;
         modalBadge.textContent = variantLabel(tail);
         modalDl.href = src;
-        modalDl.download = `${airline.folder}-${tail}`;
-        modalGh.href = `${BASE_GH}/${airline.folder}/${tail}`;
+        modalDl.download = `${airline.folder}-${tail.id}.svg`;
+        modalGh.href = `${BASE_GH}/${airline.folder}/${tail.file}`;
       }
 
       function closeModal() {

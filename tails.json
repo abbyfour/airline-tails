@@ -4,527 +4,557 @@
       "name": "Aer Lingus",
       "folder": "aer-lingus",
       "alternateNames": ["EI", "EIN"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Aer_Lingus",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Aer_Lingus"
     },
     {
       "name": "Aeromexico",
       "folder": "aeromexico",
       "alternateNames": ["AM", "AMX", "Aeroméxico"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Aerom%C3%A9xico",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Aerom%C3%A9xico"
     },
     {
       "name": "airBaltic",
       "folder": "air-baltic",
       "alternateNames": ["BT", "BTI"],
-      "wikipedia": "https://en.wikipedia.org/wiki/AirBaltic",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/AirBaltic"
     },
     {
       "name": "Air Canada",
       "folder": "air-canada",
       "alternateNames": ["AC", "ACA"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Air_Canada",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_Canada"
     },
     {
       "name": "Air China",
       "folder": "air-china",
       "alternateNames": ["CA", "CCA"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Air_China",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_China"
     },
     {
       "name": "Air Dolomiti",
       "folder": "air-dolomiti",
       "alternateNames": ["EN", "DLA"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Air_Dolomiti",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_Dolomiti"
     },
     {
       "name": "Air France",
       "folder": "air-france",
       "alternateNames": ["AF", "AFR"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Air_France",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_France"
     },
     {
       "name": "Air India",
       "folder": "air-india",
       "alternateNames": ["AI", "AIC"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Air_India",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_India"
     },
     {
       "name": "Air North",
       "folder": "air-north",
       "alternateNames": ["4N", "ANT"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Air_North",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_North"
     },
     {
       "name": "Air Transat",
       "folder": "air-transat",
       "alternateNames": ["TS", "TSC"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Air_Transat",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_Transat"
     },
     {
       "name": "Alaska Airlines",
       "folder": "alaska-airlines",
       "alternateNames": ["AS", "ASA", "Alaska"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Alaska_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Alaska_Airlines"
     },
     {
       "name": "Allegiant",
       "folder": "allegiant",
       "alternateNames": ["G4", "AAY", "Allegiant Air"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Allegiant_Air",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Allegiant_Air"
     },
     {
       "name": "American Airlines",
       "folder": "american-airlines",
       "alternateNames": ["AA", "AAL"],
-      "wikipedia": "https://en.wikipedia.org/wiki/American_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/American_Airlines"
     },
     {
       "name": "ANA",
       "folder": "ana",
       "alternateNames": ["NH", "ANA", "All Nippon Airways"],
-      "wikipedia": "https://en.wikipedia.org/wiki/All_Nippon_Airways",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/All_Nippon_Airways"
     },
     {
       "name": "AirAsia",
       "folder": "air-asia",
       "alternateNames": ["AK", "AXM", "Air Asia"],
-      "wikipedia": "https://en.wikipedia.org/wiki/AirAsia",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/AirAsia"
     },
     {
       "name": "AirAsia X",
       "folder": "air-asia-x",
       "alternateNames": ["D7", "XAX", "Air Asia X"],
-      "wikipedia": "https://en.wikipedia.org/wiki/AirAsia_X",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/AirAsia_X"
     },
     {
       "name": "Austrian Airlines",
       "folder": "austrian-airlines",
       "alternateNames": ["OS", "AUA", "Austrian"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Austrian_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Austrian_Airlines"
     },
     {
       "name": "Avianca",
       "folder": "avianca",
       "alternateNames": ["AV", "AVA"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Avianca",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Avianca"
     },
     {
       "name": "Bangkok Airways",
       "folder": "bangkok-airways",
       "alternateNames": ["PG", "BKP"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Bangkok_Airways",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Bangkok_Airways"
     },
     {
       "name": "Breeze",
       "folder": "breeze",
       "alternateNames": ["MX", "MXY", "Breeze Airways"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Breeze_Airways",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Breeze_Airways"
     },
     {
       "name": "British Airways",
       "folder": "british-airways",
       "alternateNames": ["BA", "BAW"],
-      "wikipedia": "https://en.wikipedia.org/wiki/British_Airways",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/British_Airways"
     },
     {
       "name": "Cambodian Airways",
       "folder": "cambodian-airways",
       "alternateNames": ["KR", "KME"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Cambodian_Airways",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Cambodian_Airways"
     },
     {
       "name": "Cape Air",
       "folder": "cape-air",
       "alternateNames": ["9K", "KAP"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Cape_Air",
-      "tails": ["modern.svg", "rainbow.svg"]
+      "tails": [
+        { "id": 1, "file": "modern.svg" },
+        { "id": 2, "file": "rainbow.svg", "description": "For pride 2022" }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Cape_Air"
     },
     {
       "name": "Cathay Pacific",
       "folder": "cathay-pacific",
       "alternateNames": ["CX", "CPA"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Cathay_Pacific",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Cathay_Pacific"
     },
     {
       "name": "Cebu Pacific",
       "folder": "cebu-pacific",
       "alternateNames": ["5J", "CEB"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Cebu_Pacific",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Cebu_Pacific"
     },
     {
       "name": "China Eastern",
       "folder": "china-eastern",
       "alternateNames": ["MU", "CES"],
-      "wikipedia": "https://en.wikipedia.org/wiki/China_Eastern_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/China_Eastern_Airlines"
     },
     {
       "name": "Citilink",
       "folder": "citilink",
       "alternateNames": ["QG", "CTV"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Citilink",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Citilink"
     },
     {
       "name": "Condor",
       "folder": "condor",
       "alternateNames": ["DE", "CFG"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Condor_(airline)",
-      "tails": ["blue.svg", "gold.svg", "green.svg", "red.svg", "yellow.svg"]
+      "tails": [
+        { "id": 1, "file": "blue.svg" },
+        { "id": 2, "file": "gold.svg" },
+        { "id": 3, "file": "green.svg" },
+        { "id": 4, "file": "red.svg" },
+        { "id": 5, "file": "yellow.svg" }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Condor_(airline)"
     },
     {
       "name": "Delta",
       "folder": "delta",
       "alternateNames": ["DL", "DAL", "Delta Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Delta_Air_Lines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Delta_Air_Lines"
     },
     {
       "name": "Drukair",
       "folder": "drukair",
       "alternateNames": ["KB", "DRK", "Royal Bhutan Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Drukair",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Drukair"
     },
     {
       "name": "Edelweiss",
       "folder": "edelweiss",
       "alternateNames": ["WK", "EDW", "Edelweiss Air"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Edelweiss_Air",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Edelweiss_Air"
     },
     {
       "name": "El Al Airways",
       "folder": "el-al-airways",
       "alternateNames": ["LY", "ELY", "El Al"],
-      "wikipedia": "https://en.wikipedia.org/wiki/El_Al",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/El_Al"
     },
     {
       "name": "Enerjet",
       "folder": "enerjet",
       "alternateNames": ["EG", "ENJ"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Enerjet",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Enerjet"
     },
     {
       "name": "Eurowings",
       "folder": "eurowings",
       "alternateNames": ["EW", "EWG"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Eurowings",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Eurowings"
     },
     {
       "name": "Flair",
       "folder": "flair",
       "alternateNames": ["F8", "FLE", "Flair Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Flair_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Flair_Airlines"
     },
     {
       "name": "Firefly",
       "folder": "firefly",
       "alternateNames": ["FY", "FFM"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Firefly_(airline)",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Firefly_(airline)"
     },
     {
       "name": "Frontier",
       "folder": "frontier",
       "alternateNames": ["F9", "FFT", "Frontier Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Frontier_Airlines",
-      "tails": ["fake.svg"]
+      "tails": [
+        {
+          "id": 1,
+          "file": "fake.svg",
+          "description": "Not real, frontier uses unique photos of animals on their tails. This is a placeholder design."
+        }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Frontier_Airlines"
     },
     {
       "name": "Grupo TACA",
       "folder": "grupo-taca",
       "alternateNames": ["TA", "TAI", "TACA"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Grupo_TACA",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Grupo_TACA"
     },
     {
       "name": "Harbour Air",
       "folder": "harbour-air",
       "alternateNames": ["H3", "HAR"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Harbour_Air",
-      "tails": ["modern.svg", "canada.svg"]
+      "tails": [
+        { "id": 1, "file": "modern.svg" },
+        {
+          "id": 2,
+          "file": "canada.svg",
+          "description": "special Canada Day livery"
+        }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Harbour_Air"
     },
     {
       "name": "Hawaiian Airlines",
       "folder": "hawaiian-airlines",
       "alternateNames": ["HA", "HAL"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_Airlines"
     },
     {
       "name": "Japan Airlines",
       "folder": "japan-airlines",
       "alternateNames": ["JL", "JAL"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Japan_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Japan_Airlines"
     },
     {
-      "name": "JetBlue",
+      "name": "jetBlue",
       "folder": "jetblue",
-      "alternateNames": ["B6", "JBU", "JetBlue Airways"],
-      "wikipedia": "https://en.wikipedia.org/wiki/JetBlue",
+      "alternateNames": ["B6", "JBU", "jetBlue Airways"],
       "tails": [
-        "balloons.svg",
-        "barcode.svg",
-        "binary.svg",
-        "blueberries.svg",
-        "blueprint.svg",
-        "for_good.svg",
-        "highrise.svg",
-        "hops.svg",
-        "mosaic.svg",
-        "prism.svg",
-        "ribbons.svg",
-        "spotlight.svg",
-        "streamers.svg",
-        "tartan.svg"
-      ]
+        { "id": 1, "file": "balloons.svg" },
+        { "id": 2, "file": "barcode.svg" },
+        { "id": 3, "file": "binary.svg" },
+        { "id": 4, "file": "blueberries.svg" },
+        { "id": 5, "file": "blueprint.svg" },
+        { "id": 6, "file": "for_good.svg" },
+        { "id": 7, "file": "highrise.svg" },
+        { "id": 8, "file": "hops.svg" },
+        { "id": 9, "file": "mosaic.svg" },
+        { "id": 10, "file": "prism.svg" },
+        { "id": 11, "file": "ribbons.svg" },
+        { "id": 12, "file": "spotlight.svg" },
+        { "id": 13, "file": "streamers.svg" },
+        { "id": 14, "file": "tartan.svg" }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/JetBlue"
     },
     {
       "name": "Jetstar",
       "folder": "jetstar",
       "alternateNames": ["JQ", "JST", "Jetstar Airways"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Jetstar_Airways",
-      "tails": ["modern.svg", "alternate.svg"]
+      "tails": [
+        { "id": 1, "file": "modern.svg" },
+        { "id": 2, "file": "alternate.svg" }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Jetstar_Airways"
     },
     {
       "name": "KLM",
       "folder": "klm",
       "alternateNames": ["KL", "KLM", "Royal Dutch Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/KLM",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/KLM"
     },
     {
       "name": "Lufthansa",
       "folder": "lufthansa",
       "alternateNames": ["LH", "DLH"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Lufthansa",
-      "tails": ["modern.svg", "retro.svg"]
+      "tails": [
+        { "id": 1, "file": "modern.svg" },
+        { "id": 2, "file": "retro.svg" }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Lufthansa"
     },
     {
       "name": "Lion Air",
       "folder": "lion-air",
       "alternateNames": ["JT", "LNI"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Lion_Air",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Lion_Air"
     },
     {
       "name": "Martinair",
       "folder": "martinair",
       "alternateNames": ["MP", "MPH"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Martinair",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Martinair"
     },
     {
       "name": "Nok Air",
       "folder": "nok-air",
       "alternateNames": ["DD", "NOK"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Nok_Air",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Nok_Air"
     },
     {
       "name": "Pacific Airlines",
       "folder": "pacific-airlines",
       "alternateNames": ["BL", "PIC"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Pacific_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Pacific_Airlines"
     },
     {
       "name": "Porter",
       "folder": "porter",
       "alternateNames": ["PD", "POE", "Porter Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Porter_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Porter_Airlines"
     },
     {
       "name": "Qatar Airways",
       "folder": "qatar-airways",
       "alternateNames": ["QR", "QTR"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Qatar_Airways",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Qatar_Airways"
     },
     {
       "name": "Royal Air Maroc",
       "folder": "royal-air-maroc",
       "alternateNames": ["AT", "RAM"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Royal_Air_Maroc",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Royal_Air_Maroc"
     },
     {
       "name": "Ryanair",
       "folder": "ryanair",
       "alternateNames": ["FR", "RYR"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Ryanair",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Ryanair"
     },
     {
       "name": "SAS",
       "folder": "sas",
       "alternateNames": ["SK", "SAS", "Scandinavian Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Scandinavian_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Scandinavian_Airlines"
     },
     {
       "name": "Scoot",
       "folder": "scoot",
       "alternateNames": ["TR", "TGW"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Scoot_(airline)",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Scoot_(airline)"
     },
     {
       "name": "Shanghai Airlines",
       "folder": "shanghai-airlines",
       "alternateNames": ["FM", "CSH"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Shanghai_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Shanghai_Airlines"
     },
     {
       "name": "Sky Pasada",
       "folder": "sky-pasada",
       "alternateNames": ["SP", "SKP"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Sky_Pasada",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Sky_Pasada"
     },
     {
       "name": "Southern Airways Express",
       "folder": "southern-airways-express",
       "alternateNames": ["9X", "SWQ"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Southern_Airways_Express",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Southern_Airways_Express"
     },
     {
       "name": "Southwest",
       "folder": "southwest",
       "alternateNames": ["WN", "SWA", "Southwest Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Southwest_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Southwest_Airlines"
     },
     {
       "name": "Spirit",
       "folder": "spirit",
       "alternateNames": ["NK", "NKS", "Spirit Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Spirit_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Spirit_Airlines"
     },
     {
       "name": "Sunwing",
       "folder": "sunwing",
       "alternateNames": ["WG", "SWG", "Sunwing Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Sunwing_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Sunwing_Airlines"
     },
     {
       "name": "Super Air Jet",
       "folder": "super-air-jet",
       "alternateNames": ["IU", "SJV"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Super_Air_Jet",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Super_Air_Jet"
     },
     {
       "name": "Swiss Air",
       "folder": "swiss-air",
       "alternateNames": ["LX", "SWR", "SWISS", "Swiss International Air Lines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Swiss_International_Air_Lines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Swiss_International_Air_Lines"
     },
     {
       "name": "Swoop",
       "folder": "swoop",
       "alternateNames": ["WO", "WSW"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Swoop_(airline)",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Swoop_(airline)"
     },
     {
       "name": "Thomas Cook Airlines",
       "folder": "thomas-cook-airlines",
       "alternateNames": ["MT", "TCX"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Cook_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Cook_Airlines"
     },
     {
       "name": "Turkish Airlines",
       "folder": "turkish-airlines",
       "alternateNames": ["TK", "THY"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Turkish_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Turkish_Airlines"
     },
     {
       "name": "United",
       "folder": "united",
       "alternateNames": ["UA", "UAL", "United Airlines"],
-      "wikipedia": "https://en.wikipedia.org/wiki/United_Airlines",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/United_Airlines"
     },
     {
       "name": "US Airways",
       "folder": "us-airways",
       "alternateNames": ["US", "USA"],
-      "wikipedia": "https://en.wikipedia.org/wiki/US_Airways",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/US_Airways"
     },
     {
       "name": "VietJet Airlines",
       "folder": "vietjet-airlines",
       "alternateNames": ["VJ", "VJC", "VietJet"],
-      "wikipedia": "https://en.wikipedia.org/wiki/VietJet_Air",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/VietJet_Air"
     },
     {
       "name": "Volaris",
       "folder": "volaris",
       "alternateNames": ["Y4", "VOI"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Volaris",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Volaris"
     },
     {
       "name": "WestJet",
       "folder": "westjet",
       "alternateNames": ["WS", "WJA"],
-      "wikipedia": "https://en.wikipedia.org/wiki/WestJet",
-      "tails": ["retro.svg"]
+      "tails": [
+        { "id": 1, "file": "retro.svg", "description": "In use until 2018" }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/WestJet"
     },
     {
       "name": "Wings Air",
       "folder": "wings-air",
       "alternateNames": ["IW", "WON"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Wings_Air",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Wings_Air"
     },
     {
       "name": "Wizz Air",
       "folder": "wizz-air",
       "alternateNames": ["W6", "WZZ"],
-      "wikipedia": "https://en.wikipedia.org/wiki/Wizz_Air",
-      "tails": ["modern.svg"]
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Wizz_Air"
     }
   ]
 }

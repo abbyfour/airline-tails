@@ -46,20 +46,32 @@ The top-level `tails.json` is the manifest for the whole collection. It lists ev
       "name": "Air Canada",
       "folder": "air-canada",
       "alternateNames": ["AC", "ACA"],
-      "tails": ["modern.svg", "retro.svg"]
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_Canada",
+      "tails": [
+        { "id": 1, "file": "modern.svg" },
+        { "id": 2, "file": "retro.svg", "description": "1970s–2004 livery" }
+      ]
     }
   ]
 }
 ```
 
-| field            | description                                                 |
-| ---------------- | ----------------------------------------------------------- |
-| `name`           | the airline's primary/canonical name                        |
-| `folder`         | the corresponding subdirectory under `src/`                 |
-| `alternateNames` | ICAO codes, IATA codes, former names, regional brands, etc. |
-| `tails`          | list of SVG filenames available for this airline            |
+| field            | description                                                               |
+| ---------------- | ------------------------------------------------------------------------- |
+| `name`           | the airline's primary/canonical name                                      |
+| `folder`         | the corresponding subdirectory under `src/`                               |
+| `alternateNames` | ICAO codes, IATA codes, former names, regional brands, etc.               |
+| `tails`          | ordered list of tail objects; the first entry is the default/current tail |
 
-The "default" normal tail for an airline will be called `modern.svg`. The first entry in the tails array will be the most up-to-date tail for an airline.
+Each entry in `tails` is an object with the following fields:
+
+| field         | description                                                            |
+| ------------- | ---------------------------------------------------------------------- |
+| `id`          | a permanent numeric identifier for this tail — never changes           |
+| `file`        | the SVG filename; for human readability only, and may change over time |
+| `description` | _(optional)_ a very short description of the livery                    |
+
+If you're building an app on top of this collection and need to store a reference to a specific tail, use the `id` — not `file`. Filenames are just for navigating the repo and may be renamed when a livery is updated.
 
 ## missing an airline?
 
@@ -75,4 +87,4 @@ Pull requests are also welcome but, I'm picky! It's gotta be good. A template ca
 
 Thank you to wikimedia for hosting so many airline logo SVGs! They can be found [here](https://en.wikipedia.org/wiki/Category:SVG_logos_of_airlines).
 
-All of JetBlue's tails were sourced from [their website](https://www.jetblue.com/flying-with-us/our-planes/tailfins), who host SVGs of all their tail designs. Go JetBlue!
+All of JetBlue's tails were sourced from [their website](https://www.jetblue.com/flying-with-us/our-planes/tailfins), who host SVGs of all their tail designs. Yay JetBlue!
