@@ -29,6 +29,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Air_Canada"
     },
     {
+      "name": "Air Canada Tango",
+      "folder": "air-canada-tango",
+      "alternateNames": ["CT", "ACT"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_Canada_Tango"
+    },
+    {
       "name": "Air China",
       "folder": "air-china",
       "alternateNames": ["CA", "CCA"],
@@ -143,16 +150,37 @@
     {
       "name": "British Airways",
       "folder": "british-airways",
-      "alternateNames": ["BA", "BAW"],
+      "alternateNames": ["BA", "BAW", "SHT"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/British_Airways"
     },
     {
-      "name": "Cambodian Airways",
-      "folder": "cambodian-airways",
+      "name": "Cambodia Airways",
+      "folder": "cambodia-airways",
       "alternateNames": ["KR", "KME"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
-      "wikipedia": "https://en.wikipedia.org/wiki/Cambodian_Airways"
+      "wikipedia": "https://en.wikipedia.org/wiki/Cambodia_Airways"
+    },
+    {
+      "name": "Canada 3000",
+      "folder": "canada-3000",
+      "alternateNames": ["2T", "CMM"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Canada_3000"
+    },
+    {
+      "name": "Canada Jetlines",
+      "folder": "canada-jetlines",
+      "alternateNames": ["AU", "CJL"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Canada_Jetlines"
+    },
+    {
+      "name": "CanJet",
+      "folder": "canjet",
+      "alternateNames": ["C6", "CJA"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/CanJet"
     },
     {
       "name": "Cape Air",
@@ -236,7 +264,7 @@
     {
       "name": "Enerjet",
       "folder": "enerjet",
-      "alternateNames": ["EG", "ENJ"],
+      "alternateNames": ["Y9", "DAT"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Enerjet"
     },
@@ -275,16 +303,23 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Frontier_Airlines"
     },
     {
+      "name": "Greyhound Air",
+      "folder": "greyhound-air",
+      "alternateNames": [],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Greyhound_Air"
+    },
+    {
       "name": "Grupo TACA",
       "folder": "grupo-taca",
-      "alternateNames": ["TA", "TAI", "TACA"],
+      "alternateNames": ["AV", "TAI", "TACA"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Grupo_TACA"
     },
     {
       "name": "Harbour Air",
       "folder": "harbour-air",
-      "alternateNames": ["H3", "HAR"],
+      "alternateNames": ["YB"],
       "tails": [
         { "id": 1, "file": "modern.svg" },
         {
@@ -296,9 +331,16 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Harbour_Air"
     },
     {
+      "name": "Harmony Airways",
+      "folder": "harmony-airways",
+      "alternateNames": ["HQ", "HMY"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Harmony_Airways"
+    },
+    {
       "name": "Hawaiian Airlines",
       "folder": "hawaiian-airlines",
-      "alternateNames": ["HA", "HAL"],
+      "alternateNames": ["HA", "ASA"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_Airlines"
     },
@@ -332,6 +374,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/JetBlue"
     },
     {
+      "name": "JetsGo",
+      "folder": "jetsgo",
+      "alternateNames": ["SG", "JGO"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/JetsGo"
+    },
+    {
       "name": "Jetstar",
       "folder": "jetstar",
       "alternateNames": ["JQ", "JST", "Jetstar Airways"],
@@ -357,6 +406,13 @@
         { "id": 2, "file": "retro.svg" }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Lufthansa"
+    },
+    {
+      "name": "Lynx Air",
+      "folder": "lynx-air",
+      "alternateNames": ["Y9", "DAT", "Lynx"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Lynx_Air"
     },
     {
       "name": "Lion Air",
@@ -389,7 +445,7 @@
     {
       "name": "Porter",
       "folder": "porter",
-      "alternateNames": ["PD", "POE", "Porter Airlines"],
+      "alternateNames": ["PD", "P3", "POE", "PTR", "Porter Airlines"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Porter_Airlines"
     },
@@ -438,14 +494,14 @@
     {
       "name": "Sky Pasada",
       "folder": "sky-pasada",
-      "alternateNames": ["SP", "SKP"],
+      "alternateNames": ["SP", "WCC"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Sky_Pasada"
     },
     {
       "name": "Southern Airways Express",
       "folder": "southern-airways-express",
-      "alternateNames": ["9X", "SWQ"],
+      "alternateNames": ["9X", "FDY"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Southern_Airways_Express"
     },
@@ -515,7 +571,7 @@
     {
       "name": "US Airways",
       "folder": "us-airways",
-      "alternateNames": ["US", "USA"],
+      "alternateNames": ["AL", "US", "AWE", "USA"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/US_Airways"
     },
