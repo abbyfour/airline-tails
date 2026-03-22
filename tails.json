@@ -639,6 +639,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/WestJet"
     },
     {
+      "name": "Wingo",
+      "folder": "wingo",
+      "alternateNames": ["P5", "RPB", "AeroRepública", "WH", "WWP"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Wingo_(airline)"
+    },
+    {
       "name": "Wings Air",
       "folder": "wings-air",
       "alternateNames": ["IW", "WON"],
