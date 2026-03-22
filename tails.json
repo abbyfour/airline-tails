@@ -712,13 +712,18 @@
       "name": "Zip",
       "folder": "zip",
       "alternateNames": ["3J", "WZP"],
-      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "tails": [
+        { "id": 1, "file": "blue.svg" },
+        { "id": 2, "file": "green.svg" },
+        { "id": 3, "file": "orange.svg" },
+        { "id": 5, "file": "red.svg" }
+      ],
       "wikipedia": "https://en.wikipedia.org/wiki/Zip_(airline)"
     },
     {
-      "name": "Zoom",
-      "folder": "zoom",
-      "alternateNames": ["Z4", "OOM"],
+      "name": "Zoom Airlines",
+      "folder": "zoom-airlines",
+      "alternateNames": ["Z4", "OOM", "Zoom"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Zoom_Airlines"
     }
