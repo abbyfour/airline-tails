@@ -108,7 +108,15 @@
     {
       "name": "AirAsia",
       "folder": "air-asia",
-      "alternateNames": ["AK", "AXM", "Air Asia"],
+      "alternateNames": [
+        "AK",
+        "AXM",
+        "Air Asia",
+
+        "Indonesia AirAsia",
+        "QZ",
+        "AWQ"
+      ],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/AirAsia"
     },
@@ -383,7 +391,25 @@
     {
       "name": "Jetstar",
       "folder": "jetstar",
-      "alternateNames": ["JQ", "JST", "Jetstar Airways"],
+      "alternateNames": [
+        "JQ",
+        "JST",
+        "Jetstar Airways",
+
+        "Jetstar Asia",
+        "Jetstair Asia Airways",
+        "3K",
+        "JSA",
+
+        "Jetstar Japan",
+        "GK",
+        "JJP",
+
+        "Jetstar Pacific",
+        "Jetstar Pacific Airlines",
+        "BL",
+        "PIC"
+      ],
       "tails": [
         { "id": 1, "file": "modern.svg" },
         { "id": 2, "file": "alternate.svg" }
@@ -548,6 +574,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Swoop_(airline)"
     },
     {
+      "name": "Thai VietJet Air",
+      "folder": "thai-vietjet-air",
+      "alternateNames": ["VZ", "TVJ"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Thai_VietJet_Air"
+    },
+    {
       "name": "Thomas Cook Airlines",
       "folder": "thomas-cook-airlines",
       "alternateNames": ["MT", "TCX"],
@@ -576,11 +609,18 @@
       "wikipedia": "https://en.wikipedia.org/wiki/US_Airways"
     },
     {
-      "name": "VietJet Airlines",
-      "folder": "vietjet-airlines",
+      "name": "VietJet Air",
+      "folder": "vietjet-air",
       "alternateNames": ["VJ", "VJC", "VietJet"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/VietJet_Air"
+    },
+    {
+      "name": "Virgin America",
+      "folder": "virgin-america",
+      "alternateNames": ["VX", "VRD"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Virgin_America"
     },
     {
       "name": "Volaris",
