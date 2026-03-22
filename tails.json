@@ -36,6 +36,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Air_Canada_Tango"
     },
     {
+      "name": "Air Canada Rouge",
+      "folder": "air-canada-rouge",
+      "alternateNames": ["RV", "ROU"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_Canada_Rouge"
+    },
+    {
       "name": "Air China",
       "folder": "air-china",
       "alternateNames": ["CA", "CCA"],
@@ -76,6 +83,13 @@
       "alternateNames": ["TS", "TSC"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Air_Transat"
+    },
+    {
+      "name": "AirTran Airways",
+      "folder": "airtran-airways",
+      "alternateNames": ["FL", "TRS", "AirTran"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/AirTran_Airways"
     },
     {
       "name": "Alaska Airlines",
@@ -277,6 +291,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Enerjet"
     },
     {
+      "name": "Ethiopian Airlines",
+      "folder": "ethiopian-airlines",
+      "alternateNames": ["ET", "ETH"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Ethiopian_Airlines"
+    },
+    {
       "name": "Eurowings",
       "folder": "eurowings",
       "alternateNames": ["EW", "EWG"],
@@ -415,6 +436,13 @@
         { "id": 2, "file": "alternate.svg" }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Jetstar_Airways"
+    },
+    {
+      "name": "Kenya Airways",
+      "folder": "kenya-airways",
+      "alternateNames": ["KQ", "KQA"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Kenya_Airways"
     },
     {
       "name": "KLM",
@@ -574,6 +602,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Swoop_(airline)"
     },
     {
+      "name": "TAP Air Portugal",
+      "folder": "tap-air-portugal",
+      "alternateNames": ["TP", "TAP"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/TAP_Air_Portugal"
+    },
+    {
       "name": "Thai VietJet Air",
       "folder": "thai-vietjet-air",
       "alternateNames": ["VZ", "TVJ"],
@@ -623,6 +658,20 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Virgin_America"
     },
     {
+      "name": "Vistajet",
+      "folder": "vistajet",
+      "alternateNames": ["5V", "VJT"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Vistajet"
+    },
+    {
+      "name": "Viva",
+      "folder": "viva",
+      "alternateNames": ["VB", "VIV", "Viva Aerobus"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Viva_(airline)"
+    },
+    {
       "name": "Volaris",
       "folder": "volaris",
       "alternateNames": ["Y4", "VOI"],
@@ -658,6 +707,20 @@
       "alternateNames": ["W6", "WZZ"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Wizz_Air"
+    },
+    {
+      "name": "Zip",
+      "folder": "zip",
+      "alternateNames": ["3J", "WZP"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Zip_(airline)"
+    },
+    {
+      "name": "Zoom",
+      "folder": "zoom",
+      "alternateNames": ["Z4", "OOM"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Zoom_Airlines"
     }
   ]
 }
