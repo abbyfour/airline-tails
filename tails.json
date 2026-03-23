@@ -163,6 +163,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Bangkok_Airways"
     },
     {
+      "name": "Bearskin Airlines",
+      "folder": "bearskin-airlines",
+      "alternateNames": ["JV", "BLS", "Bearskin Lake Air Service"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Bearskin_Airlines"
+    },
+    {
       "name": "Breeze",
       "folder": "breeze",
       "alternateNames": ["MX", "MXY", "Breeze Airways"],
@@ -497,6 +504,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Pacific_Airlines"
     },
     {
+      "name": "Peach Aviation",
+      "folder": "peach-aviation",
+      "alternateNames": ["MM", "APJ", "Peach"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Peach_Aviation"
+    },
+    {
       "name": "Porter",
       "folder": "porter",
       "alternateNames": ["PD", "P3", "POE", "PTR", "Porter Airlines"],
@@ -516,6 +530,13 @@
       "alternateNames": ["AT", "RAM"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Royal_Air_Maroc"
+    },
+    {
+      "name": "Rwandair",
+      "folder": "rwandair",
+      "alternateNames": ["WB", "RWD"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Rwandair"
     },
     {
       "name": "Ryanair",
@@ -567,11 +588,32 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Southwest_Airlines"
     },
     {
+      "name": "Spicejet",
+      "folder": "spicejet",
+      "alternateNames": ["SG", "SEJ"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/SpiceJet"
+    },
+    {
       "name": "Spirit",
       "folder": "spirit",
       "alternateNames": ["NK", "NKS", "Spirit Airlines"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Spirit_Airlines"
+    },
+    {
+      "name": "Spring Airlines",
+      "folder": "spring-airlines",
+      "alternateNames": ["9C", "CQH"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Spring_Airlines"
+    },
+    {
+      "name": "Spring Japan",
+      "folder": "spring-japan",
+      "alternateNames": ["IJ", "SJO", "Spring Airlines Japan"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Spring_Japan"
     },
     {
       "name": "Sunwing",
@@ -642,6 +684,13 @@
       "alternateNames": ["AL", "US", "AWE", "USA"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/US_Airways"
+    },
+    {
+      "name": "Vanilla Air",
+      "folder": "vanilla-air",
+      "alternateNames": ["JW", "VNL"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Vanilla_Air"
     },
     {
       "name": "VietJet Air",
