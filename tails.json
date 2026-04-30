@@ -71,6 +71,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Air_India"
     },
     {
+      "name": "Air Inuit",
+      "folder": "air-inuit",
+      "alternateNames": ["3H", "AIE"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_Inuit"
+    },
+    {
       "name": "Air North",
       "folder": "air-north",
       "alternateNames": ["4N", "ANT"],
@@ -149,6 +156,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Austrian_Airlines"
     },
     {
+      "name": "Avelo",
+      "folder": "avelo",
+      "alternateNames": ["XP", "VXP", "Avelo Airlines"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Avelo_Airlines"
+    },
+    {
       "name": "Avianca",
       "folder": "avianca",
       "alternateNames": ["AV", "AVA"],
@@ -203,6 +217,13 @@
       "alternateNames": ["AU", "CJL"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Canada_Jetlines"
+    },
+    {
+      "name": "Canadian North",
+      "folder": "canadian-north",
+      "alternateNames": ["5T", "AKT"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Canadian_North"
     },
     {
       "name": "CanJet",
@@ -261,6 +282,13 @@
         { "id": 5, "file": "yellow.svg" }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Condor_(airline)"
+    },
+    {
+      "name": "Contour",
+      "folder": "contour",
+      "alternateNames": ["LF", "VTE", "Contour Airlines"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Contour_Airlines"
     },
     {
       "name": "Delta",
@@ -381,6 +409,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_Airlines"
     },
     {
+      "name": "Interjet",
+      "folder": "interjet",
+      "alternateNames": ["4O", "AIJ"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Interjet"
+    },
+    {
       "name": "Japan Airlines",
       "folder": "japan-airlines",
       "alternateNames": ["JL", "JAL"],
@@ -488,6 +523,13 @@
       "alternateNames": ["MP", "MPH"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Martinair"
+    },
+    {
+      "name": "Mexicana",
+      "folder": "mexicana",
+      "alternateNames": ["XN", "MXA", "Mexicana de Aviación"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Mexicana_de_Aviaci%C3%B3n_(2023%E2%80%93present)"
     },
     {
       "name": "Nok Air",
@@ -614,6 +656,13 @@
       "alternateNames": ["IJ", "SJO", "Spring Airlines Japan"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Spring_Japan"
+    },
+    {
+      "name": "Sun Country Airlines",
+      "folder": "sun-country-airlines",
+      "alternateNames": ["SY", "SCX", "Sun Country"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Sun_Country_Airlines"
     },
     {
       "name": "Sunwing",
