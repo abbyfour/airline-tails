@@ -546,6 +546,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Pacific_Airlines"
     },
     {
+      "name": "Pascan Aviation",
+      "folder": "pascan-aviation",
+      "alternateNames": ["P6", "PSC", "Pascan"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Pascan_Aviation"
+    },
+    {
       "name": "Peach Aviation",
       "folder": "peach-aviation",
       "alternateNames": ["MM", "APJ", "Peach"],
