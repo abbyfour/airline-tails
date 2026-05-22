@@ -8,6 +8,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Aer_Lingus"
     },
     {
+      "name": "Aeroitalia",
+      "folder": "aeroitalia",
+      "alternateNames": ["XZ", "AEZ"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/AeroItalia"
+    },
+    {
       "name": "Aeromexico",
       "folder": "aeromexico",
       "alternateNames": ["AM", "AMX", "Aeroméxico"],
@@ -305,6 +312,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Drukair"
     },
     {
+      "name": "easyJet",
+      "folder": "easyjet",
+      "alternateNames": ["U2", "EZY"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/EasyJet"
+    },
+    {
       "name": "Edelweiss",
       "folder": "edelweiss",
       "alternateNames": ["WK", "EDW", "Edelweiss Air"],
@@ -352,6 +366,23 @@
       "alternateNames": ["FY", "FFM"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Firefly_(airline)"
+    },
+    {
+      "name": "FlyOne",
+      "folder": "flyone",
+      "alternateNames": ["5F", "FIA"],
+      "tails": [
+        { "id": 1, "file": "modern.svg" },
+        { "id": 2, "file": "alt.svg" }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/FlyOne"
+    },
+    {
+      "name": "French Bee",
+      "folder": "french-bee",
+      "alternateNames": ["BF", "FBU"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/French_Bee"
     },
     {
       "name": "Frontier",
@@ -407,6 +438,13 @@
       "alternateNames": ["HA", "ASA"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_Airlines"
+    },
+    {
+      "name": "HiSky",
+      "folder": "hisky",
+      "alternateNames": ["H7", "H4", "HYM", "HYS", "HiSky Europe"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/HiSky"
     },
     {
       "name": "Interjet",
@@ -494,6 +532,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/KLM"
     },
     {
+      "name": "Lauda Europe",
+      "folder": "lauda",
+      "alternateNames": ["LW", "LDA", "Lauda"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Lauda_Europe"
+    },
+    {
       "name": "Lufthansa",
       "folder": "lufthansa",
       "alternateNames": ["LH", "DLH"],
@@ -539,6 +584,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Nok_Air"
     },
     {
+      "name": "Norse Atlantic Airways",
+      "folder": "norse-atlantic",
+      "alternateNames": ["N0", "NBT", "Norse Atlantic", "Norse"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Norse_Atlantic_Airways"
+    },
+    {
       "name": "Pacific Airlines",
       "folder": "pacific-airlines",
       "alternateNames": ["BL", "PIC"],
@@ -567,9 +619,16 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Porter_Airlines"
     },
     {
+      "name": "Qanot Sharq",
+      "folder": "qanot-sharq",
+      "alternateNames": ["HH", "QNT"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Qanot_Sharq"
+    },
+    {
       "name": "Qatar Airways",
       "folder": "qatar-airways",
-      "alternateNames": ["QR", "QTR"],
+      "alternateNames": ["QR", "QTR", "Qatar"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Qatar_Airways"
     },
@@ -621,6 +680,13 @@
       "alternateNames": ["SP", "WCC"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Sky_Pasada"
+    },
+    {
+      "name": "Smartwings",
+      "folder": "smartwings",
+      "alternateNames": ["QS", "TVS", "Travel Service"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Smartwings"
     },
     {
       "name": "Southern Airways Express",
@@ -719,6 +785,36 @@
       "alternateNames": ["MT", "TCX"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Cook_Airlines"
+    },
+    {
+      "name": "Transavia",
+      "folder": "transavia",
+      "alternateNames": ["HV", "TRA", "TO", "TVF", "transavia.com"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Transavia"
+    },
+    {
+      "name": "TUI fly",
+      "folder": "tui-fly",
+      "alternateNames": [
+        "X3",
+        "TUI",
+        "BY",
+        "TOM",
+        "TB",
+        "JAF",
+        "OR",
+        "TFL",
+        "6B",
+        "BLX",
+        "TUI fly Deutschland",
+        "TUI Airways",
+        "TUI fly Belgium",
+        "TUI fly Netherlands",
+        "TUI fly Nordic"
+      ],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/TUI_fly_Deutschland"
     },
     {
       "name": "Turkish Airlines",
