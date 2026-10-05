@@ -440,6 +440,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_Airlines"
     },
     {
+      "name": "Helijet",
+      "folder": "helijet",
+      "alternateNames": ["JB", "JBA"],
+      "tails": [{ "id": 1, "file": "helicopter.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Helijet"
+    },
+    {
       "name": "HiSky",
       "folder": "hisky",
       "alternateNames": ["H7", "H4", "HYM", "HYS", "HiSky Europe"],
