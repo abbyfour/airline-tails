@@ -22,6 +22,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Aerom%C3%A9xico"
     },
     {
+      "name": "Air New Zealand",
+      "folder": "air-new-zealand",
+      "alternateNames": ["NZ", "ANZ"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_New_Zealand"
+    },
+    {
       "name": "airBaltic",
       "folder": "air-baltic",
       "alternateNames": ["BT", "BTI"],
@@ -333,6 +340,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/El_Al"
     },
     {
+      "name": "Emirates",
+      "folder": "emirates",
+      "alternateNames": ["EK", "UAE"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Emirates_(airline)"
+    },
+    {
       "name": "Enerjet",
       "folder": "enerjet",
       "alternateNames": ["Y9", "DAT"],
@@ -347,11 +361,25 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Ethiopian_Airlines"
     },
     {
+      "name": "Etihad Airways",
+      "folder": "etihad-airways",
+      "alternateNames": ["EY", "ETD", "Etihad"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Etihad_Airways"
+    },
+    {
       "name": "Eurowings",
       "folder": "eurowings",
       "alternateNames": ["EW", "EWG"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Eurowings"
+    },
+    {
+      "name": "Fiji Airways",
+      "folder": "fiji-airways",
+      "alternateNames": ["FJ", "FJI", "Air Pacific"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Fiji_Airways"
     },
     {
       "name": "Flair",
@@ -378,6 +406,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/FlyOne"
     },
     {
+      "name": "FlySafair",
+      "folder": "flysafair",
+      "alternateNames": ["FA", "SFR"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/FlySafair"
+    },
+    {
       "name": "French Bee",
       "folder": "french-bee",
       "alternateNames": ["BF", "FBU"],
@@ -396,6 +431,13 @@
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Frontier_Airlines"
+    },
+    {
+      "name": "Garuda Indonesia",
+      "folder": "garuda-indonesia",
+      "alternateNames": ["GA", "GIA"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Garuda_Indonesia"
     },
     {
       "name": "Greyhound Air",
@@ -570,6 +612,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Lion_Air"
     },
     {
+      "name": "Malaysia Airlines",
+      "folder": "malaysia-airlines",
+      "alternateNames": ["MH", "MAS"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Malaysia_Airlines"
+    },
+    {
       "name": "Martinair",
       "folder": "martinair",
       "alternateNames": ["MP", "MPH"],
@@ -619,6 +668,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Peach_Aviation"
     },
     {
+      "name": "Philippine Airlines",
+      "folder": "philippine-airlines",
+      "alternateNames": ["PR", "PAL"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Philippine_Airlines"
+    },
+    {
       "name": "Porter",
       "folder": "porter",
       "alternateNames": ["PD", "P3", "POE", "PTR", "Porter Airlines"],
@@ -631,6 +687,13 @@
       "alternateNames": ["HH", "QNT"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Qanot_Sharq"
+    },
+    {
+      "name": "Qantas",
+      "folder": "qantas",
+      "alternateNames": ["QF", "QFA"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Qantas"
     },
     {
       "name": "Qatar Airways",
@@ -682,6 +745,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Shanghai_Airlines"
     },
     {
+      "name": "Singapore Airlines",
+      "folder": "singapore-airlines",
+      "alternateNames": ["SQ", "SIA"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Singapore_Airlines"
+    },
+    {
       "name": "Sky Pasada",
       "folder": "sky-pasada",
       "alternateNames": ["SP", "WCC"],
@@ -694,6 +764,13 @@
       "alternateNames": ["QS", "TVS", "Travel Service"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Smartwings"
+    },
+    {
+      "name": "South African Airways",
+      "folder": "south-african-airways",
+      "alternateNames": ["SA", "SAA"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/South_African_Airways"
     },
     {
       "name": "Southern Airways Express",
@@ -780,6 +857,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/TAP_Air_Portugal"
     },
     {
+      "name": "Thai Airways",
+      "folder": "thai-airways",
+      "alternateNames": ["TG", "THA", "Thai Airways International"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Thai_Airways"
+    },
+    {
       "name": "Thai VietJet Air",
       "folder": "thai-vietjet-air",
       "alternateNames": ["VZ", "TVJ"],
@@ -859,11 +943,25 @@
       "wikipedia": "https://en.wikipedia.org/wiki/VietJet_Air"
     },
     {
+      "name": "Vietnam Airlines",
+      "folder": "vietnam-airlines",
+      "alternateNames": ["VN", "HVN"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Vietnam_Airlines"
+    },
+    {
       "name": "Virgin America",
       "folder": "virgin-america",
       "alternateNames": ["VX", "VRD"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Virgin_America"
+    },
+    {
+      "name": "Virgin Australia",
+      "folder": "virgin-australia",
+      "alternateNames": ["VA", "VOZ"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Virgin_Australia"
     },
     {
       "name": "Vistajet",
