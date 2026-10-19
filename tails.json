@@ -605,6 +605,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Pacific_Airlines"
     },
     {
+      "name": "Pacific Coastal Airlines",
+      "folder": "pacific-coastal",
+      "alternateNames": ["8P", "PCO", "Pacific Coastal"],
+      "tails": [{ "id": 1, "file": "retro.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Pacific_Coastal_Airlines"
+    },
+    {
       "name": "Pascan Aviation",
       "folder": "pascan-aviation",
       "alternateNames": ["P6", "PSC", "Pascan"],
