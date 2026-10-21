@@ -1,6 +1,13 @@
 {
   "airlines": [
     {
+      "name": "Aegean Airlines",
+      "folder": "aegean-airlines",
+      "alternateNames": ["A3", "AEE", "Aegean"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Aegean_Airlines"
+    },
+    {
       "name": "Aer Lingus",
       "folder": "aer-lingus",
       "alternateNames": ["EI", "EIN"],
@@ -205,6 +212,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/British_Airways"
     },
     {
+      "name": "Brussels Airlines",
+      "folder": "brussels-airlines",
+      "alternateNames": ["SN", "BEL"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Brussels_Airlines"
+    },
+    {
       "name": "Cambodia Airways",
       "folder": "cambodia-airways",
       "alternateNames": ["KR", "KME"],
@@ -361,6 +375,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Flair_Airlines"
     },
     {
+      "name": "Finnair",
+      "folder": "finnair",
+      "alternateNames": ["AY", "FIN"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Finnair"
+    },
+    {
       "name": "Firefly",
       "folder": "firefly",
       "alternateNames": ["FY", "FFM"],
@@ -452,6 +473,13 @@
       "alternateNames": ["H7", "H4", "HYM", "HYS", "HiSky Europe"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/HiSky"
+    },
+    {
+      "name": "Iberia",
+      "folder": "iberia",
+      "alternateNames": ["IB", "IBE"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Iberia_(airline)"
     },
     {
       "name": "Interjet",
@@ -546,6 +574,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Lauda_Europe"
     },
     {
+      "name": "LOT Polish Airlines",
+      "folder": "lot-polish-airlines",
+      "alternateNames": ["LO", "LOT"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/LOT_Polish_Airlines"
+    },
+    {
       "name": "Lufthansa",
       "folder": "lufthansa",
       "alternateNames": ["LH", "DLH"],
@@ -596,6 +631,13 @@
       "alternateNames": ["N0", "NBT", "Norse Atlantic", "Norse"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Norse_Atlantic_Airways"
+    },
+    {
+      "name": "Norwegian Air Shuttle",
+      "folder": "norwegian-air-shuttle",
+      "alternateNames": ["DY", "NOZ", "Norwegian"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Norwegian_Air_Shuttle"
     },
     {
       "name": "Pacific Airlines",
