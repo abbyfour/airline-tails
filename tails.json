@@ -36,6 +36,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/AirBaltic"
     },
     {
+      "name": "Air Berlin",
+      "folder": "air-berlin",
+      "alternateNames": ["AB", "BER"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_Berlin"
+    },
+    {
       "name": "Air Canada",
       "folder": "air-canada",
       "alternateNames": ["AC", "ACA"],
@@ -212,6 +219,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/British_Airways"
     },
     {
+      "name": "British Midland International",
+      "folder": "british-midlands-international",
+      "alternateNames": ["BD", "BMA", "BMI", "British Midland"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/BMI_(airline)"
+    },
+    {
       "name": "Brussels Airlines",
       "folder": "brussels-airlines",
       "alternateNames": ["SN", "BEL"],
@@ -317,6 +331,13 @@
       "alternateNames": ["DL", "DAL", "Delta Airlines"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Delta_Air_Lines"
+    },
+    {
+      "name": "Discover Airlines",
+      "folder": "discover",
+      "alternateNames": ["4Y", "OCN", "Discover", "Eurowings Discover"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Discover_Airlines"
     },
     {
       "name": "Drukair",
@@ -489,6 +510,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Interjet"
     },
     {
+      "name": "ITA Airways",
+      "folder": "ita-airways",
+      "alternateNames": ["AZ", "ITY"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/ITA_Airways"
+    },
+    {
       "name": "Japan Airlines",
       "folder": "japan-airlines",
       "alternateNames": ["JL", "JAL"],
@@ -567,11 +595,25 @@
       "wikipedia": "https://en.wikipedia.org/wiki/KLM"
     },
     {
+      "name": "KM Malta Airlines",
+      "folder": "km-malta-airlines",
+      "alternateNames": ["KM", "KMM", "Air Malta"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/KM_Malta_Airlines"
+    },
+    {
       "name": "Lauda Europe",
       "folder": "lauda",
       "alternateNames": ["LW", "LDA", "Lauda"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Lauda_Europe"
+    },
+    {
+      "name": "LEVEL",
+      "folder": "level",
+      "alternateNames": ["LL", "LVL", "LEVEL Airlines"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Level_(airline)"
     },
     {
       "name": "LOT Polish Airlines",
@@ -589,6 +631,13 @@
         { "id": 2, "file": "retro.svg" }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Lufthansa"
+    },
+    {
+      "name": "Luxair",
+      "folder": "luxair",
+      "alternateNames": ["LG", "LGL"],
+      "tails": [{ "id": 1, "file": "retro.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Luxair"
     },
     {
       "name": "Lynx Air",
@@ -610,6 +659,13 @@
       "alternateNames": ["MP", "MPH"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Martinair"
+    },
+    {
+      "name": "Malta Air",
+      "folder": "malta-air",
+      "alternateNames": ["MW", "MAY"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Malta_Air"
     },
     {
       "name": "Mexicana",
@@ -934,6 +990,13 @@
       "alternateNames": ["Y4", "VOI"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Volaris"
+    },
+    {
+      "name": "Vueling",
+      "folder": "vueling",
+      "alternateNames": ["VY", "VLG", "Vueling Airlines"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Vueling"
     },
     {
       "name": "WestJet",
