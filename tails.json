@@ -328,7 +328,7 @@
     {
       "name": "Delta",
       "folder": "delta",
-      "alternateNames": ["DL", "DAL", "Delta Airlines"],
+      "alternateNames": ["DL", "DAL", "Delta Airlines", "Delta Air Lines"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Delta_Air_Lines"
     },

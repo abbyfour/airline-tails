@@ -1,12 +1,24 @@
 <svg width="514" height="459" viewBox="0 0 514 459" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M70.3622 0.867752L37.2161 1.55301C18.0839 1.94855 4.20762 19.914 8.65915 38.5253L105.51 443.448C107.663 452.448 115.708 458.796 124.962 458.796H469.487C486.667 458.796 495.852 438.563 484.542 425.63L139.972 31.6029C122.454 11.5704 96.9682 0.317701 70.3622 0.867752Z" fill="#3B80B9"/>
-<mask id="mask0_134_7506" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="0" width="483" height="459">
+<mask id="mask0_142_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="0" width="483" height="459">
 <path d="M70.3622 0.867752L37.2161 1.55301C18.0839 1.94855 4.20762 19.914 8.65915 38.5253L105.51 443.448C107.663 452.448 115.708 458.796 124.962 458.796H469.487C486.667 458.796 495.852 438.563 484.542 425.63L139.972 31.6029C122.454 11.5704 96.9682 0.317701 70.3622 0.867752Z" fill="white"/>
 </mask>
-<g mask="url(#mask0_134_7506)">
+<g mask="url(#mask0_142_2)">
 <rect x="-68.5977" y="-38.1333" width="350.826" height="95.2559" fill="#FCD226"/>
-<rect x="-76.2246" y="57.1201" width="350.826" height="106.776" fill="#8BB6E3"/>
+<circle cx="136.438" cy="294.818" r="176.051" fill="#5CA2D3"/>
 <rect x="28.3906" y="341.216" width="485.609" height="127.586" fill="#104C88"/>
-<circle cx="136.439" cy="294.818" r="176.051" fill="#DBC3C0"/>
+<mask id="mask1_142_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="28" y="341" width="486" height="128">
+<rect x="28.3906" y="341.216" width="485.609" height="127.586" fill="#104C88"/>
+</mask>
+<g mask="url(#mask1_142_2)">
+<circle cx="136.438" cy="294.818" r="176.051" fill="#1B68A8"/>
+</g>
+<rect x="-76.2246" y="57.1201" width="350.826" height="106.776" fill="#8BB6E3"/>
+<mask id="mask2_142_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-77" y="57" width="352" height="107">
+<rect x="-76.2246" y="57.1201" width="350.826" height="106.776" fill="#8BB6E3"/>
+</mask>
+<g mask="url(#mask2_142_2)">
+<circle cx="136.438" cy="294.818" r="176.051" fill="#B8D2F0"/>
+</g>
 </g>
 </svg>
