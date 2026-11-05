@@ -88,3 +88,15 @@ Pull requests are also welcome but, I'm picky! It's gotta be good. A template ca
 Thank you to wikimedia for hosting so many airline logo SVGs! They can be found [here](https://en.wikipedia.org/wiki/Category:SVG_logos_of_airlines).
 
 All of JetBlue's tails were sourced from [their website](https://www.jetblue.com/flying-with-us/our-planes/tailfins), who host SVGs of all their tail designs. Yay JetBlue!
+
+## license
+
+The [Apache-2.0 license](./LICENSE) covers only the original work in this repository: the code, the `tails.json` manifest, and artwork I drew myself. Third-party material, including logos and SVGs sourced from wikimedia or airline websites, keeps its original terms and is not relicensed by this repository.
+
+## trademarks
+
+All airline names, logos, and liveries are trademarks or property of their respective airlines. They are included here for identification and reference only, and their inclusion does not imply any affiliation with or endorsement by those airlines.
+
+## takedown requests
+
+If you represent an airline or rights holder and would like a tail removed or corrected, please [open an issue](../../issues/new) and I'll respond promptly.
