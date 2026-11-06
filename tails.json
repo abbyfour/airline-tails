@@ -99,6 +99,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Air_Inuit"
     },
     {
+      "name": "Air New Zealand",
+      "folder": "air-new-zealand",
+      "alternateNames": ["NZ", "ANZ"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Air_New_Zealand"
+    },
+    {
       "name": "Air North",
       "folder": "air-north",
       "alternateNames": ["4N", "ANT"],
@@ -191,6 +198,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Avianca"
     },
     {
+      "name": "Bahamasair",
+      "folder": "bahamasair",
+      "alternateNames": ["UP", "BHS"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Bahamasair"
+    },
+    {
       "name": "Bangkok Airways",
       "folder": "bangkok-airways",
       "alternateNames": ["PG", "BKP"],
@@ -233,6 +247,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Brussels_Airlines"
     },
     {
+      "name": "Calm Air",
+      "folder": "calm-air",
+      "alternateNames": ["MO", "CAV"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Calm_Air"
+    },
+    {
       "name": "Cambodia Airways",
       "folder": "cambodia-airways",
       "alternateNames": ["KR", "KME"],
@@ -252,6 +273,13 @@
       "alternateNames": ["AU", "CJL"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Canada_Jetlines"
+    },
+    {
+      "name": "Canadian Airlines",
+      "folder": "canadian-airlines",
+      "alternateNames": ["CP", "CDN", "Canadian Airlines International"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Canadian_Airlines"
     },
     {
       "name": "Canadian North",
@@ -326,6 +354,13 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Contour_Airlines"
     },
     {
+      "name": "CP Air",
+      "folder": "cp-air",
+      "alternateNames": ["CP", "CPC", "Canadian Pacific Air Lines"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/CP_Air"
+    },
+    {
       "name": "Delta",
       "folder": "delta",
       "alternateNames": ["DL", "DAL", "Delta Airlines", "Delta Air Lines"],
@@ -387,6 +422,13 @@
       "alternateNames": ["EW", "EWG"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Eurowings"
+    },
+    {
+      "name": "Fiji Airways",
+      "folder": "fiji-airways",
+      "alternateNames": ["FJ", "FJI", "Air Pacific"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Fiji_Airways"
     },
     {
       "name": "Flair",
@@ -736,6 +778,13 @@
       "alternateNames": ["HH", "QNT"],
       "tails": [{ "id": 1, "file": "modern.svg" }],
       "wikipedia": "https://en.wikipedia.org/wiki/Qanot_Sharq"
+    },
+    {
+      "name": "Qantas",
+      "folder": "qantas",
+      "alternateNames": ["QF", "QFA", "Qantas Airways"],
+      "tails": [{ "id": 1, "file": "modern.svg" }],
+      "wikipedia": "https://en.wikipedia.org/wiki/Qantas"
     },
     {
       "name": "Qatar Airways",
